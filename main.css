@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(33, 247, 211);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.timer__zone {
+    font-size: 25px;
+}
+
+.game__zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.click {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+    margin: 20px 0;
+    background:rgb(177, 153, 20);
+    font-size: 30px;
+}
+
+.start {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.score__zone {
+    border: 1px solid black;
+    width: 200px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.score__list {
+    list-style-type: none;
+}
+
+.score__li {
+    background: rgb(215, 255, 104);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.modal__wrapper {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 250px;
+    height: 150px;
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 10px;
+    text-align: center;
+    gap: 10;
+}
