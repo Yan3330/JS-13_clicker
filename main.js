@@ -9,7 +9,6 @@ let score = 0
 btnStart.addEventListener('click', () => {
     timer()
     btnClick.addEventListener('click', () => {
-        
         score++
     })
 
@@ -21,13 +20,13 @@ btnStart.addEventListener('click', () => {
         scoreListItem.textContent = score
 
         closeModal()
-    }, 10000);
+    }, 11000);
 })
 
 const timer = () => {
     let number = 10
     setInterval(() => {
-        if (number >= 0){
+        if (number >=0 ){
            timerSpan.textContent = number
            number--
         }
